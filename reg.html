@@ -1,0 +1,72 @@
+<html>
+<body>
+	
+	<form action="connect.php" method="post">
+		<table border="1" cellpadding="10" cellspacing="0" align="center" width=50% >
+			<tr>
+				<th colspan="2"><big>Registration form</big></th>
+				
+			<tr>
+				<th><label for="username">Username :</label></th>
+				<td><input id="username" type="text" placeholder="enter your name" name="username">
+			<img src=https://cdn.pixabay.com/photo/2023/08/08/14/49/luffy-8177538_1280.jpg" alt="my pic" height="100" width="100" align="right"></td>
+			</tr>
+			<tr>
+				<th><label for="addess">Enter address : </label></th>
+				<td><textarea id="address" name="address" placeholder="enter address"></textarea> </td>	 
+			
+			</tr>
+			<tr>
+				<th><label for="email">Email :</label></th>
+				<td><input id="email" type="email" placeholder="enter your email" name="email"></td>
+			</tr>
+			<tr>
+				<th>Gender :</th>
+				<td>
+				<label for="1"><input type="radio"name="gender" id="101" value="m">Male</label>
+				<label for="2"><input  type="radio"name="gender" id="102" value="f">feMale</label>
+				</td>
+				
+			</tr>
+			<tr>
+				<th>
+					Higher qualificatons :</th>
+				<td><select name="qualification" id="qualification">
+						<option  value="ssc">SSC</option>
+						<option  value="diploma">diploma</option>
+						<option  value="inter">inter</option>
+						<option  value="masters">masters</option>
+						<option  value="mtech">mtech</option>
+						<option  value="ssc">others</option>
+					</select></td>
+			</tr>
+		
+	
+			
+				<th colspan="2">Technical skills </th>
+				</tr>
+				<tr >
+					<td colspan="2"><input name="skills[]" value="python" type="checkbox">PYTHON<BR>
+					<input name="skills[]" value="java" type="checkbox">JAVA<BR>
+					<input name="skills[]" value="html" type="checkbox">HTML<BR>
+					<input name="skills[]" value="c++" type="checkbox">C++<br>
+					<input name="skills[]" value="c" type="checkbox">C<br>
+					<input name="skills[]" value="xml" type="checkbox">XML<br>
+					<input name="skills[]" value="css" type="checkbox">CSS<br>
+					<input name="skills[]" value="ruby" type="checkbox">RUBY</td>
+				</tr>
+			<tr>
+			<th>Choose file : </th>
+			<td><input id="fil" type="file"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" value="submit"></th>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript" src="registration.js">
+		</script>
+</body>
+</html>
+
+			
